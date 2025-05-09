@@ -5,14 +5,13 @@ executables:
   ds: 
 
 environment:
-  sdk: ^3.7.0
+  sdk: ^3.5.0
 dependencies:
   args: ^2.7.0
   code_builder: ^4.10.1
-  dart_style: ^3.0.1
+  dart_style: ^2.3.7
   json_annotation: ^4.9.0
-  shelf: ^1.4.2
 dev_dependencies:
-  json_serializable: ^6.9.5
-  build_runner: ^2.4.15
+  build_runner: ^2.4.13
+  json_serializable: ^6.9.0
 
