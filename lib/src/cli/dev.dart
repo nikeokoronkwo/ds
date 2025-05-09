@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:args/command_runner.dart';
 
 /// The run command
@@ -8,9 +6,10 @@ class DevCommand extends Command {
   final name = 'dev';
   final description = 'Start the development version of the server';
 
-
   void run() {
     // find user directory for server
+
+    // create ds application
 
     // find routes directory
 
@@ -20,7 +19,7 @@ class DevCommand extends Command {
 
     // use route map to generate router
 
-    // write file to .ds
+    // write files to .ds
 
     // run .ds
   }

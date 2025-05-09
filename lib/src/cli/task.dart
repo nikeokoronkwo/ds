@@ -1,7 +1,3 @@
-
-
-import 'dart:async';
-
 import 'package:args/command_runner.dart';
 
 class TaskCommand extends Command {
@@ -9,6 +5,5 @@ class TaskCommand extends Command {
   String description = 'Invoke tasks in DS';
 
   @override
-  void run() {
-  }
+  void run() {}
 }
