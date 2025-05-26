@@ -3,3 +3,5 @@ pubspec.lock
 .dart_tool
 
 private
+
+.DS_Store
