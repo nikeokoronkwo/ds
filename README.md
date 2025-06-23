@@ -10,6 +10,12 @@ DS was designed to suit my needs for a robust server-side framework.
 
 ## Goals
 - Deployment-agnostic: DS is designed to work on every platform Dart can support, which includes JavaScript platforms. This makes it possible to use the expressiveness
+- Web Standards: DS is designed to support and respect Web Standards by default, where applicable.
+- Configurable: DS is designed to be easily configured
+- Extensible: DS is designed to be extensible to suit various needs, with DS's plugin architecture, custom deployment environments, and more.
+- Scalable: DS is designed to scale to suit larger server needs, while still being able to help with small servers.
+
+
 
 Although DS is minimal, you might find current solutions much better for making small/tiny servers. 
 
@@ -20,7 +26,7 @@ DS takes an approach different from most Dart server-side frameworks like Pharoa
 - Platform-agnostic: DS is the first
 - DS is designed to take care of the annoying parts, so you can focus more on 
 - Built ontop of Shelf: DS is built ontop of well supported tools, including [Dart's Shelf](https://pub.dev/packages/shelf).
-- Web Standards: DS is designed to support and respect Web Standards by default
+
 - Fast: DS is designed to be as fast as Dart can be, and can even [be faster](#performance)
 - Pick the tools you need: Only core tools are supported by default. You can add other packages as needed. Most packages are designed to be usable even outside of DS and do not force you to use them in DS.
 
