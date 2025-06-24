@@ -16,9 +16,9 @@ class BuildCommand extends Command {
         : p.isAbsolute(argResults!.rest.first)
             ? argResults!.rest.first
             : p.join(p.current, argResults?.rest.first);
-    
 
     // create ds application
-    final dsApp = await createDsApplication(directory: currentDirPath, dev: false);
+    final dsApp =
+        await createDsApplication(directory: currentDirPath, dev: false);
   }
 }
