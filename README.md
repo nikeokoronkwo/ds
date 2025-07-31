@@ -14,6 +14,7 @@ DS was designed to suit my needs for a robust server-side framework.
 - Configurable: DS is designed to be easily configured
 - Extensible: DS is designed to be extensible to suit various needs, with DS's plugin architecture, custom deployment environments, and more.
 - Scalable: DS is designed to scale to suit larger server needs, while still being able to help with small servers.
+- Embeddable: DS can be used in a larger server application, as well as can be used for full-stack toolkits
 
 
 
